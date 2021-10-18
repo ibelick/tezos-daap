@@ -1,0 +1,74 @@
+.app {
+  min-height: 100vh;
+  background-color: #000;
+  color: #e0e0e0;
+}
+
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 600px;
+  width: 100%;
+  padding-top: 64px;
+  margin: 0 auto;
+}
+
+.header {
+  text-align: center;
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.userBalance {
+  margin: 16px 0 8px 0;
+}
+
+.form {
+  margin-top: 16px;
+  display: flex;
+  flex-direction: column;
+}
+
+.inputMessage {
+  margin: 8px 0 12px 0;
+  padding: 8px;
+  border: 1px solid #b7b7b7;
+  background-color: transparent;
+  color: #fff;
+  border-radius: 8px;
+}
+
+.btnGrad {
+  background-image: linear-gradient(to right, #00b4db, #0083b0);
+  margin-bottom: 16px;
+}
+
+.btnGrad {
+  border: 0;
+  cursor: pointer;
+  padding: 15px 45px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: #fff;
+  border-radius: 8px;
+}
+
+.btnGrad:hover {
+  background-position: right center;
+  opacity: 0.8;
+}
+
+.cardMessage {
+  margin-top: 32px;
+  padding: 16px;
+  border: 1px solid #383838;
+  border-radius: 4px;
+}
+
+.time {
+  margin-bottom: 8px;
+}
