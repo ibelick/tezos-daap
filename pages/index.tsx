@@ -7,8 +7,8 @@ import { ContractAbstraction, TezosToolkit, Wallet } from "@taquito/taquito";
 import { NetworkType } from "@airgap/beacon-sdk";
 import BigNumber from "bignumber.js";
 
-const RPC_URL = "https://florencenet.api.tez.ie";
-const CONTRACT_ADDRESS = "KT19s3jHpUUPH3KfMcN1ShX7hzyCTkdnm2Cu";
+const RPC_URL = "https://granadanet.api.tez.ie";
+const CONTRACT_ADDRESS = "KT1RNSSRh42hUJaL1JLfZXGtPy6qCopJwaPn";
 const Tezos = new TezosToolkit(RPC_URL);
 
 type Comments = {
@@ -78,7 +78,7 @@ const Home: NextPage = () => {
     try {
       await wallet.requestPermissions({
         network: {
-          type: NetworkType.FLORENCENET,
+          type: NetworkType.GRANADANET,
           rpcUrl: RPC_URL,
         },
       });
